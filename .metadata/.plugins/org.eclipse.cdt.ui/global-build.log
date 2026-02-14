@@ -1,0 +1,441 @@
+09:26:41 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11172	     12	   1804	  12988	   32bc	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+09:27:10 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11172	     12	   1804	  12988	   32bc	DoAn.elf
+Finished building: default.size.stdout
+ 
+09:29:15 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11172	     12	   1804	  12988	   32bc	DoAn.elf
+Finished building: default.size.stdout
+ 
+09:33:53 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11212	     12	   1804	  13028	   32e4	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+09:34:51 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11228	     12	   1804	  13044	   32f4	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+09:35:40 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11216	     12	   1804	  13032	   32e8	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+09:38:18 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11216	     12	   1804	  13032	   32e8	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+09:39:45 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11220	     12	   1804	  13036	   32ec	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+09:40:19 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11220	     12	   1804	  13036	   32ec	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+10:00:43 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11220	     12	   1804	  13036	   32ec	DoAn.elf
+Finished building: default.size.stdout
+ 
+10:00:57 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11220	     12	   1804	  13036	   32ec	DoAn.elf
+Finished building: default.size.stdout
+ 
+10:02:03 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11632	     12	   1820	  13464	   3498	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+10:02:16 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11632	     12	   1820	  13464	   3498	DoAn.elf
+Finished building: default.size.stdout
+ 
+10:02:24 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11632	     12	   1820	  13464	   3498	DoAn.elf
+Finished building: default.size.stdout
+ 
+11:32:40 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11744	     16	   1824	  13584	   3510	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+11:33:05 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11744	     16	   1824	  13584	   3510	DoAn.elf
+Finished building: default.size.stdout
+ 
+11:42:08 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11744	     16	   1824	  13584	   3510	DoAn.elf
+Finished building: default.size.stdout
+ 
+13:07:46 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:08:50 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:09:32 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:10:14 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:11:15 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+13:11:40 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:12:46 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:14:28 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:17:24 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11344	     16	   1808	  13168	   3370	DoAn.elf
+Finished building: default.size.stdout
+ 
+13:30:49 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11744	     16	   1824	  13584	   3510	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+13:31:00 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11744	     16	   1824	  13584	   3510	DoAn.elf
+Finished building: default.size.stdout
+ 
+13:32:14 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11744	     16	   1824	  13584	   3510	DoAn.elf
+Finished building: default.size.stdout
+ 
+13:32:38 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-size  DoAn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11744	     16	   1824	  13584	   3510	DoAn.elf
+Finished building: default.size.stdout
+ 
+14:07:32 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11440	     16	   1808	  13264	   33d0	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+16:08:15 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11440	     16	   1808	  13264	   33d0	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+16:31:01 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11440	     16	   1808	  13264	   33d0	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+16:37:10 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11440	     16	   1808	  13264	   33d0	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+16:38:58 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11440	     16	   1808	  13264	   33d0	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+16:39:57 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11440	     16	   1808	  13264	   33d0	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+16:42:01 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11436	     16	   1808	  13260	   33cc	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
+16:44:21 **** Incremental Build of configuration Debug for project DoAn ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DoAn.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\UIT\HK1 25-26\MachDienTu\DoAn\DoAn\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoAn.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoAn.elf
+ 
+arm-none-eabi-size  DoAn.elf 
+arm-none-eabi-objdump -h -S DoAn.elf  > "DoAn.list"
+   text	   data	    bss	    dec	    hex	filename
+  11440	     16	   1808	  13264	   33d0	DoAn.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoAn.list
+ 
